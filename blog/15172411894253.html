@@ -130,30 +130,36 @@
 
 <h5 id="toc_0">(1) You have to use package &#39;tikz&#39; as</h5>
 
-<p><code>\usepackage{tikz}</code></p>
+<pre><code>\usepackage{tikz}
+</code></pre>
 
 <h5 id="toc_1">(2) Declare used library as</h5>
 
-<p><code>\usetikzlibrary{matrix,shapes,arrows,positioning,chains,calc,fit}</code></p>
+<pre><code>\usetikzlibrary{matrix,shapes,arrows,positioning,chains,calc,fit}
+</code></pre>
 
 <h5 id="toc_2">(3) Define styles as</h5>
 
-<pre><code class="language-\tikzstyle{startstop}">\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+<pre><code>\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
 \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
 \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
-\tikzstyle{arrow} = [thick,-&gt;,&gt;=stealth]```
+\tikzstyle{arrow} = [thick,-&gt;,&gt;=stealth]
+</code></pre>
 
-##### (4) Then you can draw flow chart node by use
-```\node (user) [startstop] [align=center]{(1) User \\ $U_u=P_u(G)-C_u(G_s,N_a)$};
-\node (platform) [startstop,below of=user,xshift=-2.4cm,yshift=-1cm] [align=center]{(2) Platform \\$U_p=P_p(G_s,b)-C_p(N_a)$};```
+<h5 id="toc_3">(4) Then you can draw flow chart node by use</h5>
 
-##### (5) Draw arrows between nodes like 
-```\draw [arrow] (user)--node[anchor=east] {G}(platform) ;```
+<pre><code class="language-\node">\node (platform) [startstop,below of=user,xshift=-2.4cm,yshift=-1cm] [align=center]{(2) Platform \\$U_p=P_p(G_s,b)-C_p(N_a)$};
+</code></pre>
 
-##### (6) If you want to specify the start or end point in the node, you can use 
-```\draw [arrow] (platform.5)--node[anchor=south] {$G_s$}(user.175);```
+<h5 id="toc_4">(5) Draw arrows between nodes like</h5>
 
+<pre><code>\draw [arrow] (user)--node[anchor=east] {G}(platform) ;
+</code></pre>
 
+<h5 id="toc_5">(6) If you want to specify the start or end point in the node, you can use</h5>
+
+<pre><code>\draw [arrow] (platform.5)--node[anchor=south] {$G_s$}(user.175);
 </code></pre>
 
 
