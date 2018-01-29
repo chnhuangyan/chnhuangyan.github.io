@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Words Usage - 
+  Skills - 
   
   </title>
  <meta name="description" content="">
@@ -125,68 +125,44 @@
             </div>
             <div class="large-9 medium-9 columns">
 
- <div class="markdown-body">
-<h1>Words Usage</h1>
-
-<blockquote>
-<p>This page preserve proper words for specific Chinese word. All the english words are picked from native writers.</p>
-</blockquote>
-
-<table>
-<thead>
-<tr>
-<th style="text-align: center">Chinese</th>
-<th style="text-align: center">English</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td style="text-align: center">分配</td>
-<td style="text-align: center">division</td>
-</tr>
-</tbody>
-</table>
+ 
 
 
-</div>
+	
+		<div class="markdown-body">
+		<h1>Use tikz to draw flow chart in Latex</h1>
 
-<br /><br />
-<hr />
+		<p>(1) Firstly, you have to use package &#39;tikz&#39; as <br/>
+<code>\usepackage{tikz}</code></p>
 
-<div class="row clearfix">
-  <div class="large-6 columns">
-	<div class="text-left" style="padding:15px 0px;">
-		
-	        <a href="15172411894253.html"  title="Previous Post: Use tikz to draw flow chart in Latex">&laquo; Use tikz to draw flow chart in Latex</a>
-	    
-	</div>
-  </div>
-  <div class="large-6 columns">
-	<div class="text-right" style="padding:15px 0px;">
-		
-	        <a href="15166554026450.html" 
-	        title="Next Post: Differential Privacy">Differential Privacy &raquo;</a>
-	    
-	</div>
-  </div>
-</div>
+<p>(2) declare used library as <br/>
+<code>\usetikzlibrary{matrix,shapes,arrows,positioning,chains,calc,fit}</code></p>
 
-<div class="row">
-<div style="padding:0px 0.93em;" class="share-comments">
+<p>(3) define styles as <br/>
+<code>\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]<br/>
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]<br/>
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]<br/>
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]<br/>
+\tikzstyle{arrow} = [thick,-&gt;,&gt;=stealth]<br/>
+</code><br/>
+(4) Then you can draw flow chart node by use<br/>
+<code><br/>
+\node (user) [startstop] [align=center]{(1) User \\ $U_u=P_u(G)-C_u(G_s,N_a)$};<br/>
+\node (platform) [startstop,below of=user,xshift=-2.4cm,yshift=-1cm] [align=center]{(2) Platform \\$U_p=P_p(G_s,b)-C_p(N_a)$};<br/>
+</code><br/>
+(5) Draw arrows between nodes like <code><br/>
+\draw [arrow] (user)--node[anchor=east] {G}(platform) ;<br/>
+</code><br/>
+(6) If you want to specify the start or end point in the node, you can use<code><br/>
+\draw [arrow] (platform.5)--node[anchor=south] {$G_s$}(user.175);<br/>
+</code></p>
 
-</div>
-</div>
-<script type="text/javascript">
-	$(function(){
-		var currentURL = '15169855947519.html';
-		$('#side-nav a').each(function(){
-			if($(this).attr('href') == currentURL){
-				$(this).parent().addClass('active');
-			}
-		});
-	});
-</script>  
+
+		</div>
+	
+
+  
+  
 </div></div>
 
 
