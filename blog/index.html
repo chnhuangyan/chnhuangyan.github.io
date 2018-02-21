@@ -73,6 +73,10 @@
         <li><label>Skills</label></li>
 
           
+            <li><a title="Latex" href="15191639548904.html">Latex</a></li>
+          
+            <li><a title="Use 'matplot' and 'numpy' to Generate Research Figure" href="15172429023909.html">Use 'matplot' and 'numpy' to Generate Research Figure</a></li>
+          
             <li><a title="Use 'tikz' to Draw Flow Chart in Latex" href="15172411894253.html">Use 'tikz' to Draw Flow Chart in Latex</a></li>
           
 
@@ -114,6 +118,10 @@
                     
                       <li class="side-title"><span>Skills</span></li>
                         
+                          <li><a title="Latex" href="15191639548904.html">Latex</a></li>
+                        
+                          <li><a title="Use 'matplot' and 'numpy' to Generate Research Figure" href="15172429023909.html">Use 'matplot' and 'numpy' to Generate Research Figure</a></li>
+                        
                           <li><a title="Use 'tikz' to Draw Flow Chart in Latex" href="15172411894253.html">Use 'tikz' to Draw Flow Chart in Latex</a></li>
                         
 
@@ -130,44 +138,31 @@
 
 	
 		<div class="markdown-body">
-		<h1>Use 'tikz' to Draw Flow Chart in Latex</h1>
+		<h1>Latex</h1>
 
-		<h5 id="toc_0">(1) You have to use package &#39;tikz&#39; as</h5>
+		<h4 id="toc_0">\limits</h4>
 
-<pre><code>\usepackage{tikz}
-</code></pre>
+<p>with out \limits \(\sum_{g_i \in G}\)  </p>
 
-<h5 id="toc_1">(2) Declare used library as</h5>
+<blockquote>
+<p>\sum_{g_i \in G}</p>
+</blockquote>
 
-<pre><code>\usetikzlibrary{matrix,shapes,arrows,positioning,chains,calc,fit}
-</code></pre>
+<p>with \limits<br/>
+\(\sum \limits_{g_i \in G}\)</p>
 
-<h5 id="toc_2">(3) Define styles as</h5>
-
-<pre><code>\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
-\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
-\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
-\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
-\tikzstyle{arrow} = [thick,-&gt;,&gt;=stealth]
-</code></pre>
-
-<h5 id="toc_3">(4) Then you can draw flow chart node by use</h5>
-
-<pre><code class="language-\node">\node (platform) [startstop,below of=user,xshift=-2.4cm,yshift=-1cm] [align=center]{(2) Platform \\$U_p=P_p(G_s,b)-C_p(N_a)$};
-</code></pre>
-
-<h5 id="toc_4">(5) Draw arrows between nodes like</h5>
-
-<pre><code>\draw [arrow] (user)--node[anchor=east] {G}(platform) ;
-</code></pre>
-
-<h5 id="toc_5">(6) If you want to specify the start or end point in the node, you can use</h5>
-
-<pre><code>\draw [arrow] (platform.5)--node[anchor=south] {$G_s$}(user.175);
-</code></pre>
+<blockquote>
+<p>\sum \limits_{g_i \in G}</p>
+</blockquote>
 
 
 		</div>
+	
+
+ 
+	
+
+ 
 	
 
  
