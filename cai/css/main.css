@@ -1,5 +1,3 @@
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -14,7 +12,160 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background-color: #EEEEEE;
 }
+
+.main{
+  margin: 0;
+}
+
+.main-links{
+  position:relative;
+  left:150px;
+}
+.header-div{
+  background-color: #073da3;
+  height: 120px;
+  /*text-align: center;*/
+}
+
+.header-text{
+  position:relative;
+  left:150px;
+  top: -60px;
+  color: white;
+  font-size: 2em;
+}
+
+.header-img{
+  position:relative;
+  left:85px;
+  top: 15px;
+
+}
+
+.header-tab-box{
+  position:relative;
+  left:530px;
+  top: 10px;
+}
+
+.bio{
+  position: relative;
+  left: 40px;
+}
+
+.portrait{
+  position:relative;
+  left: 10px;
+  top: 30px;
+}
+
+.info{
+  position: relative;
+  left: 16px;
+  top: 50px;
+  line-height:21px
+}
+
+.info p{
+  color: #000000;
+  font-size: 0.85em;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.right-column{
+  font-family: sans-serif;
+  width: 750px;
+  position: relative;
+  height: 2000px;
+  left: 330px;
+  top: -515px;
+}
+
+.right-column h1{
+  font-size: 1.5em;
+}
+
+.right-column-links{
+  font-family: sans-serif;
+  width: 750px;
+  position: relative;
+  height: 2000px;
+  left: 380px;
+  top: -490px;
+}
+
+.about{
+  font-family: sans-serif;
+  font-size: 1.18em;
+  text-align: justify;
+  font-size: 1.18em;
+}
+.about p{
+  line-height: 23px;
+}
+
+.about a{
+  text-decoration:none;
+  color: darkblue;
+}
+
+.li-normal{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 10px;
+}
+
+.li-normal li{
+  line-height: 25px;
+}
+
+.divider{
+  height: 2px;
+  background-color: #003399;
+  margin-bottom: 10px;
+}
+
+underline {
+  border-bottom: 3px solid red;
+}
+
+ul.header-nav{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  position: absolute;
+  top: -95px;
+}
+
+ul.header-nav li a{
+  display:block;
+  width:100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color:#FFFFFF;
+  background-color:#073da3;
+  text-align:center;
+  padding:4px;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-decoration:none;
+}
+
+ul.header-nav li a:hover:not(.active) {
+  color: #073da3;
+  background-color:#ffffff;
+}
+ul.header-nav li a.active {
+  color: #073da3;
+  background-color: #EEEEEE;
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -25,11 +176,6 @@ html {
  *
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 ::selection {
     background: #b3d4fc;
@@ -45,7 +191,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 0em 0;
     padding: 0;
 }
 
@@ -87,10 +233,10 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
+    margin: 0em 0;
     background: #ccc;
     color: #000;
-    padding: 0.2em 0;
+    padding: 0em 0;
 }
 
 /* ==========================================================================
@@ -204,7 +350,6 @@ textarea {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
@@ -222,7 +367,6 @@ textarea {
     *:after {
         background: transparent !important;
         color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
