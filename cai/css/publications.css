@@ -86,10 +86,10 @@
 .banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
 .banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none;margin-top:5px;}
 .banner_Nav ul li a{color: black;font-weight: 500;}
-.banner_Nav ul li a:hover{color: #f56a6a;text-decoration: none;}
+.banner_Nav ul li a:hover{color: #033499;text-decoration: none;}
 .navbar{width: 7%;background-color:transparent; height: 35px;border: none;}
 .container-fluid{margin:0;padding:0;width: 100%;}
-.banner_Year .container-fluid #myexample{width: 100%;height: 35px;margin:0;padding:0;color:#f56a6a}
+.banner_Year .container-fluid #myexample{width: 100%;height: 35px;margin:0;padding:0;color:#033499}
 .dropdown-toggle{padding: 0;height:100%;}
 .navbar-default .navbar-nav .dropdown{height: 35px} 
 .navbar-default .navbar-nav .open{height: 35px}
@@ -138,11 +138,11 @@ box-shadow: inset 0 0px 0 rgba(0,0,0,0.12);}
 
 
 .journal{width: 100%;margin-left:20% ;margin-top:30px; }
-.journal h2{color:#f56a6a;}
+.journal h2{color:#033499;}
 .journal2{width: 70%;display:flex;display: -webkit-box;display:-moz-box; display: -ms-flexbox;display: -webkit-flex;}
 .journal2 div{margin-right:20%;}
 .journal p{margin:0; }
 .journal p a{color:#333333 ;font-size: 18px;}
-.journal p a:hover{color:#f56a6a;text-decoration: none;}
+.journal p a:hover{color:#033499;text-decoration: none;}
 
 .Line{width:70%;margin:0 15%;border-bottom:1px solid #ddd;margin-top:2.2%;}

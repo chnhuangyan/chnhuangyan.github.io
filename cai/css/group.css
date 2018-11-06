@@ -68,7 +68,7 @@
 .tp3{background:#22AEE3;}
 .carousel-indicators{top:90%;}
 .bannerWord{width:70%;margin-left: 15%;margin-right:15%;margin-top:50px;font-size: 22px;text-align: center;}
-.bannerWord span{color: #f56a6a;}
+.bannerWord span{color: #033499;}
 
 .CurrentMembers{width:100%;margin-top:0px;background-color:rgba(244,244,244,0.75);padding-top: 30px;}
 .CurrentMembers h1,.CurrentMembers h4{
@@ -79,7 +79,7 @@
     text-align:-ms-center;
     text-align:-o-center;
     width: 100%;
-    color:#f56a6a;
+    color:#033499;
    }
 .CurrentMembers h4{margin-top:-1%;color: #9C9C9C}
 .CurrentMembers h4 span{color:#696969}
