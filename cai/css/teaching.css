@@ -1,0 +1,14 @@
+@media screen and (max-width: 1280px) {
+    .HeaderW ul{
+    position:absolute !important;
+    top:0px !important;
+    margin-top:270px !important;
+    margin-left:22% !important;
+    }
+    .bannerTop{width: 100%;margin-top: 9% !important; }
+}
+#tableW{width: 52%;}
+.table{margin-left: 24%;margin-top:80px; }
+.table .courseHOver a{color:#337ab7;}
+.table  .courseHOver a:hover{color: #f56a6a;text-decoration: none}
+

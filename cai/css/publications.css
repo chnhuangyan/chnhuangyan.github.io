@@ -1,0 +1,76 @@
+#containPub{margin:0 auto;}
+.bannerTop{
+    height: 200px;
+    width: 70%;
+    margin-top: 2%;
+    margin-left:15%;
+    display: flex;
+    display:s-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content:flex-start;
+    font-size:16px;
+    line-height: 18px;
+    padding:0 9%;
+    }
+.bannerTopPic{height: 100%;width:173px;}
+.bannerTop .bannerTopPic{box-shadow: 3px 3px 3px 3px #828282;}
+.bannerTopName{padding-top: 20px;font-weight: 500;margin-left:17%}
+.bannerTop .bannerTopName p{margin-bottom:15px}
+.bannerTopP{padding-top: 20px;margin-left:-2%;margin-left:12%}
+
+@media screen and (max-width: 1280px) {
+    .HeaderW ul{
+    position:absolute !important;
+    top:0px !important;
+    margin-top:270px !important;
+    margin-left:22% !important;
+    }
+    .bannerTop{width: 100%;margin-top: 9% !important; }
+    .bannerTopP{display:none;}
+}
+
+.bannerTopNameN{font-size:20px; }
+.bannerTopName span,.bannerTopP span{color:#777777; }
+.banner_Nav{width: 60%;height: 35px;margin:0 20%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
+.banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
+.banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none}
+.banner_Nav ul li a{color: black;font-weight: 500;}
+.banner_Nav ul li a:hover{color: #f56a6a;text-decoration: none;}
+.navbar{width: 7%;background-color:transparent; height: 35px;border: none;}
+.container-fluid{margin:0;padding:0;width: 100%;}
+.banner_Year .container-fluid #myexample{width: 100%;height: 35px;margin:0;padding:0;color:#f56a6a}
+.dropdown-toggle{padding: 0;height:100%;}
+.navbar-default .navbar-nav .dropdown{height: 35px} 
+.navbar-default .navbar-nav .open{height: 35px}
+.banner_Year{position: relative;height:10px;width: 100%;}
+.navbar{position: absolute;right: 20%;bottom:-180%;}
+.aboutMe2{margin-top: 0;border: none;margin-left:15%;width: 70%;margin-bottom: -4%;}
+.aboutMe2 .aboutMeLeft{width: 100%}
+.aboutMe2 h3{width: 250px;margin-left:8% ;}
+/*.aboutMe2 p{width:55%;margin-left:4%;font-size: 16px;font-weight: normal;}margin-top: 1%; }*/
+.aboutMe2 p{margin-top:0px;width:100%;margin-left:6%;font-size: 16px;font-weight: normal;word-wrap:break-word;line-height:16px;}
+.aboutMeLeft{margin-bottom:100px;}
+
+
+.aboutMe2 .aboutMeLeft2 h3{width: 200px;}
+.aboutMe2 .aboutMeLeft3 h3{width: 240px;margin-top:100px}
+.aboutMe2 .aboutMeLeft2 div{padding-bottom: 2px;line-height:16px;margin-top:10px;}
+/*..aboutMe .qikan {margin-top:-0.2%}*/
+.aboutMe .qikan a{color:#337ab7;}
+.aboutMe .qikan a:hover{color: #f56a6a;}
+.bottomP{height:50px;}
+
+
+
+
+.journal{width: 100%;margin-left:24% ;margin-top:30px; }
+.journal h2{color:#f56a6a;}
+.journal2{width: 70%;display:flex;display: -webkit-box;display:-moz-box; display: -ms-flexbox;display: -webkit-flex;}
+.journal2 div{margin-right:20%;}
+.journal p{margin:0; }
+.journal p a{color:#333333 ;font-size: 18px;}
+.journal p a:hover{color:#f56a6a;text-decoration: none;}
+
+.Line{width:70%;margin:0 15%;border-bottom:1px solid #ddd;margin-top:40px;}
