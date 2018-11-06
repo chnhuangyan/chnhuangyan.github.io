@@ -1,41 +1,90 @@
 #containPub{margin:0 auto;}
 .bannerTop{
-    height: 200px;
-    width: 70%;
-    margin-top: 2%;
-    margin-left:15%;
+    height: 220px;
+    width: 100%;
+    margin-top: 0.5%;
+    margin-left:9%;
     display: flex;
     display:s-webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     justify-content:flex-start;
-    font-size:16px;
-    line-height: 18px;
+    font-size:18px;
+    line-height: 30px;
     padding:0 9%;
     }
-.bannerTopPic{height: 100%;width:173px;}
+.bannerTopPic{height: 100%;width:195px;margin-top: 10px;}
+.bannerTopPic img{height:100%;width:195px;}
 .bannerTop .bannerTopPic{box-shadow: 3px 3px 3px 3px #828282;}
-.bannerTopName{padding-top: 20px;font-weight: 500;margin-left:17%}
-.bannerTop .bannerTopName p{margin-bottom:15px}
+.bannerTopName{padding-top: 20px;font-weight: 500;margin-left:12%}
+/*.bannerTop .bannerTopName p{margin-bottom:15px}*/
 .bannerTopP{padding-top: 20px;margin-left:-2%;margin-left:12%}
+.banW{display: none;}
 
 @media screen and (max-width: 1280px) {
-    .HeaderW ul{
-    position:absolute !important;
-    top:0px !important;
-    margin-top:270px !important;
-    margin-left:22% !important;
+.bannerTopP{margin-left: 2%  !important;} 
+.bannerTopNameN{font-size:18px !important;}
+.bannerTop{
+    height: 200px !important;
+    width: 100% !important;
+    margin-top: 2% !important;
+    margin-left:9% !important;
+    display: flex !important;
+    display:s-webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    justify-content:flex-start !important;
+    font-size:16px !important;
+    line-height: 25px !important;
+    padding:0 9% !important;
     }
-    .bannerTop{width: 100%;margin-top: 9% !important; }
-    .bannerTopP{display:none;}
+.bannerTopPic{
+    height: 100% !important;
+    width:178px !important;
+    margin-top: 10px !important;}
+.bannerTopPic img{
+    height:100% !important;
+    width:178px !important;}
+.HeaderLeft a img{
+    height:40% !important;
+    position:absolute !important;
+    top:120px !important;}
+.HeaderLeft a .state{
+    position: absolute !important;
+    top:155px !important;
+    font-size: 20px !important;
+    left:100px !important;
+    color: black !important;
+    text-shadow: 4px 4px 4px #828282 !important;
+    width:250px !important;}
+.HeaderLeft a .university{
+    position: absolute;top:180px !important;
+    font-size: 25px !important;
+    left:110px !important;
+    color:#9C9C9C !important;
+    text-shadow: 4px 4px 4px #E8E8E8 !important;}
+.HeaderW ul li{font-size: 130% !important;
+    list-style:none !important;
+    display:inline !important;
+    margin-left:4% !important;}
+
+
+.aboutMe2 {margin-top: 0 !important;}
+.Line{
+    width:70% !important;
+    margin:0 15% !important;
+    border-bottom:1px solid #ddd !important;
+    margin-top:5%!important;}
 }
 
-.bannerTopNameN{font-size:20px; }
+
+.bannerTopNameN{font-size:23px; }
 .bannerTopName span,.bannerTopP span{color:#777777; }
 .banner_Nav{width: 60%;height: 35px;margin:0 20%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
 .banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
-.banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none}
+.banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none;margin-top:5px;}
 .banner_Nav ul li a{color: black;font-weight: 500;}
 .banner_Nav ul li a:hover{color: #f56a6a;text-decoration: none;}
 .navbar{width: 7%;background-color:transparent; height: 35px;border: none;}
@@ -48,24 +97,47 @@
 .navbar{position: absolute;right: 20%;bottom:-180%;}
 .aboutMe2{margin-top: 0;border: none;margin-left:15%;width: 70%;margin-bottom: -4%;}
 .aboutMe2 .aboutMeLeft{width: 100%}
-.aboutMe2 h3{width: 250px;margin-left:8% ;}
+.aboutMe2 h3{width: 250px;margin-left:4% ;}
 /*.aboutMe2 p{width:55%;margin-left:4%;font-size: 16px;font-weight: normal;}margin-top: 1%; }*/
-.aboutMe2 p{margin-top:0px;width:100%;margin-left:6%;font-size: 16px;font-weight: normal;word-wrap:break-word;line-height:16px;}
-.aboutMeLeft{margin-bottom:100px;}
+.aboutMe2 p{margin-top:0px;width:100%;margin-left:4%;font-size: 16px;font-weight: normal;word-wrap:break-word;line-height:16px;}
+.aboutMeLeft{margin-bottom:120px;}
 
 
-.aboutMe2 .aboutMeLeft2 h3{width: 200px;}
-.aboutMe2 .aboutMeLeft3 h3{width: 240px;margin-top:100px}
-.aboutMe2 .aboutMeLeft2 div{padding-bottom: 2px;line-height:16px;margin-top:10px;}
+.aboutMe2 .aboutMeLeft2 h3{width: 200px;margin-bottom: 25px;}
+.aboutMe2 .aboutMeLeft3 h3{width: 240px;margin-top:150px;}
+.aboutMe2 .aboutMeLeft2 div{padding-bottom: 2px;line-height:16px;margin-top:14px;}
+
+
+.aboutMeLeft > div > p:first-child{ color: #666666;}
+.aboutMeLeft > div > p:nth-of-type(2){ color: #c00000; font-weight: inherit;font-size: 17px;}
+.aboutMeLeft > div > p:nth-of-type(3){ color: #AAAAAA;}
+
+
+
+
 /*..aboutMe .qikan {margin-top:-0.2%}*/
-.aboutMe .qikan a{color:#337ab7;}
-.aboutMe .qikan a:hover{color: #f56a6a;}
+.aboutMe .qikan a{color:#666666;}
+.aboutMe .qikan a:hover{color: #337ab7;}
 .bottomP{height:50px;}
+.lunwencount{color:#333}
+
+
+/*..myArtical*/
+.myArticle{
+background-color: #008bd2;
+color: #fff;
+padding: 3px 4px;
+margin-left: 10px;
+font-size: 11px;
+font-weight: bold;
+line-height: 0.2;
+border-radius: 3px;
+box-shadow: inset 0 0px 0 rgba(0,0,0,0.12);}
 
 
 
 
-.journal{width: 100%;margin-left:24% ;margin-top:30px; }
+.journal{width: 100%;margin-left:20% ;margin-top:30px; }
 .journal h2{color:#f56a6a;}
 .journal2{width: 70%;display:flex;display: -webkit-box;display:-moz-box; display: -ms-flexbox;display: -webkit-flex;}
 .journal2 div{margin-right:20%;}
@@ -73,4 +145,4 @@
 .journal p a{color:#333333 ;font-size: 18px;}
 .journal p a:hover{color:#f56a6a;text-decoration: none;}
 
-.Line{width:70%;margin:0 15%;border-bottom:1px solid #ddd;margin-top:40px;}
+.Line{width:70%;margin:0 15%;border-bottom:1px solid #ddd;margin-top:2.2%;}

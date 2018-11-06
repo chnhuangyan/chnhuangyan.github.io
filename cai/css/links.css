@@ -1,0 +1,63 @@
+@media screen and (max-width: 1280px) {
+.bannerTopP{margin-left: 2%  !important;} 
+.bannerTopNameN{font-size:18px !important;}
+.bannerTop{
+    height: 200px !important;
+    width: 100% !important;
+    margin-top: 2% !important;
+    margin-left:9% !important;
+    display: flex !important;
+    display:s-webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    justify-content:flex-start !important;
+    font-size:16px !important;
+    line-height: 25px !important;
+    padding:0 9% !important;
+    }
+.bannerTopPic{
+	height: 100% !important;
+	width:178px !important;
+	margin-top: 10px !important;}
+.bannerTopPic img{
+	height:100% !important;
+  	width:178px !important;}
+.HeaderLeft a img{
+	height:40% !important;
+	position:absolute !important;
+	top:120px !important;}
+.HeaderLeft a .state{
+	position: absolute !important;
+	top:155px !important;
+	font-size: 20px !important;
+	left:100px !important;
+	color: black !important;
+	text-shadow: 4px 4px 4px #828282 !important;
+	width:250px !important;}
+.HeaderLeft a .university{
+	position: absolute;top:180px !important;
+	font-size: 25px !important;
+	left:110px !important;
+	color:#9C9C9C !important;
+	text-shadow: 4px 4px 4px #E8E8E8 !important;}
+.HeaderW ul li{font-size: 130% !important;
+	list-style:none !important;
+	display:inline !important;
+	margin-left:4% !important;}
+.aboutMe p{
+	margin-left: 8% !important;
+	margin-right:8% !important;
+	text-indent: 40px !important;
+	font-size:17px !important;
+	line-height: 28px !important;
+	margin-top: 25px !important;}
+.aboutMe .aboutMePic{
+	width:25% !important;
+	height:200px !important;
+	display: inline-block;position: absolute !important;
+	top:33% !important;
+	right:4% !important;
+	box-shadow: 4px 4px 4px 4px #828282 !important;}
+.aboutMe, .professional{margin-top:7% !important;}
+}
