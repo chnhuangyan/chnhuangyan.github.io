@@ -49,7 +49,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
     margin-left:4% !important;}
 
 
-.aboutMe .aboutMePic{height:140px !important;}
+.aboutMe .aboutMePic{height:120px; margin-top: -20px !important;}
 .Line{
     width:70% !important;
     margin:0 15% !important;
