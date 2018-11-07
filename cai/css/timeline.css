@@ -554,17 +554,17 @@
   color: inherit;
 }
 .timeline .timeline-item > .timeline-event.timeline-event-danger {
-  background: #FFC4BC;
-  border: 1px solid #d25a4b;
-  color: #B71500;
+  background: #0062A7;
+  border: 1px solid #31429d;
+  color: #033499;
 }
 .timeline .timeline-item > .timeline-event.timeline-event-danger:before {
-  border-left-color: #d25a4b;
-  border-right-color: #d25a4b;
+  border-left-color: #033499;
+  border-right-color: #033499;
 }
 .timeline .timeline-item > .timeline-event.timeline-event-danger:after {
-  border-left-color: #FFC4BC;
-  border-right-color: #FFC4BC;
+  border-left-color: #4054b2;
+  border-right-color: #4054b2;
 }
 .timeline .timeline-item > .timeline-event.timeline-event-danger h1,
 .timeline .timeline-item > .timeline-event.timeline-event-danger h2,
@@ -661,7 +661,7 @@
   background: #fff;
 }
 .timeline .timeline-item > .timeline-point.timeline-point-danger {
-  color: #d25a4b;
+  color: #033499;
   background: #fff;
 }
 .timeline .timeline-label {
@@ -707,7 +707,7 @@
   background-color: #d0aa42;
 }
 .timeline .timeline-label .label-danger {
-  background-color: #d25a4b;
+  background-color: #033499;
 }
 @media all and (orientation: portrait) {
   .timeline.timeline {
