@@ -49,7 +49,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
     margin-left:4% !important;}
 
 
-.aboutMe .aboutMePic{ position:relative; height:120px; margin-top: -25px !important;}
+/*.aboutMe .aboutMePic{ position:relative; height:120px; margin-top: -25px !important;}*/
 .Line{
     width:70% !important;
     margin:0 15% !important;
@@ -96,7 +96,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
 .aboutMe p a{color: #033499;}
 .aboutMe p a:hover{text-decoration: none;}
 .aboutMe .aboutMeLeft10{width: 70%;} /*about me text width*/
-.aboutMe .aboutMePic{width:25%;height:185px;display: inline-block;position: absolute;top:20%;right:2%;box-shadow: 4px 4px 4px 4px #828282;}
+.aboutMe .aboutMePic{width:20%;height:170px;display: inline-block;position: absolute;top:20%;right:2%;box-shadow: 4px 4px 4px 4px #828282;}
 
 /*.professional{background: url(../img/bg.png) no-repeat;}*/
 .professional{margin-top:15px;}
