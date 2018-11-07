@@ -82,7 +82,7 @@
 
 .bannerTopNameN{font-size:23px; }
 .bannerTopName span,.bannerTopP span{color:#777777; }
-.banner_Nav{width: 60%;height: 35px;margin:0 20%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
+.banner_Nav{width: 60%;height: 35px;margin:0 15%;margin-top:0%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
 .banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
 .banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none;margin-top:5px;}
 .banner_Nav ul li a{color: black;font-weight: 500;}
@@ -97,8 +97,9 @@
 .navbar{position: absolute;right: 20%;bottom:-180%;}
 .aboutMe2{margin-top: 0;border: none;margin-left:15%;width: 70%;margin-bottom: -4%;}
 .aboutMe2 .aboutMeLeft{width: 100%}
-.aboutMe2 h3{width: 250px;margin-left:4% ;}
+.aboutMe2 h3{height: 40px;width: 250px;margin-left:4%;border-bottom: solid 3px #033499;margin-top: 50px;}
 /*.aboutMe2 p{width:55%;margin-left:4%;font-size: 16px;font-weight: normal;}margin-top: 1%; }*/
+.aboutMe p a{color: #033499;}
 .aboutMe2 p{margin-top:0px;width:100%;margin-left:4%;font-size: 16px;font-weight: normal;word-wrap:break-word;line-height:16px;}
 .aboutMeLeft{margin-bottom:120px;}
 
