@@ -82,7 +82,7 @@
 
 .bannerTopNameN{font-size:23px; }
 .bannerTopName span,.bannerTopP span{color:#777777; }
-.banner_Nav{width: 60%;height: 35px;margin:0 15%;margin-top:0%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
+.banner_Nav{width: 73%;height: 35px;margin:0 15%;margin-left: 14%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
 .banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
 .banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none;margin-top:5px;}
 .banner_Nav ul li a{color: black;font-weight: 500;}

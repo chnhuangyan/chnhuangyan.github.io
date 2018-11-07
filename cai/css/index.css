@@ -96,7 +96,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
 .aboutMe p a{color: #033499;}
 .aboutMe p a:hover{text-decoration: none;}
 .aboutMe .aboutMeLeft10{width: 70%;} /*about me text width*/
-.aboutMe .aboutMePic{width:230px;height:175px;display: inline-block;position: absolute;top:20%;right:3%;box-shadow: 4px 4px 4px 4px #828282;}
+.aboutMe .aboutMePic{width:220px;height:165px;display: inline-block;position: absolute;top:20%;right:3%;box-shadow: 4px 4px 4px 4px #828282;}
 
 /*.professional{background: url(../img/bg.png) no-repeat;}*/
 .professional{margin-top:15px;}
@@ -106,7 +106,7 @@ height: 8px;
 background-color: #033499;
 border-radius:100px;margin-top: 25px;margin-left:4%;}
 .fa{position: relative;}
-.award{position: relative;left: -6%;color: #033499;top:0px;margin-top: -32px;}
+.award{position: relative;left: -5%;color: #033499;top:0px;margin-top: -32px;}
 .professional ul{margin-left:1.7%;margin-right:8%;}
 .professional ul li{ margin-bottom:0px;font-size: 16px;overflow: hidden;text-overflow:ellipsis;white-space: break-word;}
 .professional ul li a:hover{color:#033499;text-decoration:none;}
