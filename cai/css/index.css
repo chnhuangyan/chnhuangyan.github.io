@@ -96,7 +96,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
 .aboutMe p a{color: #033499;}
 .aboutMe p a:hover{text-decoration: none;}
 .aboutMe .aboutMeLeft10{width: 70%;} /*about me text width*/
-.aboutMe .aboutMePic{width:200px;height:160px;display: inline-block;position: absolute;top:20%;right:5%;box-shadow: 4px 4px 4px 4px #828282;}
+.aboutMe .aboutMePic{width:210px;height:180px;display: inline-block;position: absolute;top:20%;right:5%;box-shadow: 4px 4px 4px 4px #828282;}
 
 /*.professional{background: url(../img/bg.png) no-repeat;}*/
 .professional{margin-top:15px;}
