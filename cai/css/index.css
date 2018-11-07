@@ -106,7 +106,7 @@ height: 8px;
 background-color: #033499;
 border-radius:100px;margin-top: 25px;margin-left:4%;}
 .fa{position: relative;}
-.award{position: relative;left: -1%;color: #033499;top:0px;margin-top: -32px;}
+.award{position: relative;left: -5%;color: #033499;top:0px;margin-top: -32px;}
 .professional ul{margin-left:1.7%;margin-right:8%;}
 .professional ul li{ margin-bottom:0px;font-size: 16px;overflow: hidden;text-overflow:ellipsis;white-space: break-word;}
 .professional ul li a:hover{color:#033499;text-decoration:none;}
