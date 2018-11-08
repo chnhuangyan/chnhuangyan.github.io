@@ -82,9 +82,9 @@
 
 .bannerTopNameN{font-size:23px; }
 .bannerTopName span,.bannerTopP span{color:#777777; }
-.banner_Nav{width: 73%;height: 35px;margin:0 15%;margin-left: 14%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
+.banner_Nav{width: 73%;height: 50px;margin:0 15%;margin-left: 14%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
 .banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
-.banner_Nav ul li{margin-right: 5%;margin-left: 9%;font-size: 16px;list-style:none;margin-top:5px;}
+.banner_Nav ul li{margin-right: 5%;margin-left: 6%;font-size: 24px;list-style:none;margin-top:5px;}
 .banner_Nav ul li a{color: #033499;font-weight: 500;}
 .banner_Nav ul li a:hover{color: #337ab7;text-decoration: none;}
 .navbar{width: 7%;background-color:transparent; height: 35px;border: none;}
@@ -112,15 +112,15 @@
 .aboutMe2 .aboutMeLeft2 div p{line-height: 10px}
 
 
-.aboutMeLeft > div > p:first-child{ color: #666666;}
+.aboutMeLeft > div > p:first-child{ color: black;}
 .aboutMeLeft > div > p:nth-of-type(2){ color: #033499; font-weight: inherit;font-size: 17px;}
-.aboutMeLeft > div > p:nth-of-type(3){ color: #AAAAAA;}
+.aboutMeLeft > div > p:nth-of-type(3){ color: black;}
 
 
 
 
 /*..aboutMe .qikan {margin-top:-0.2%}*/
-.aboutMe .qikan a{color:#666666;}
+.aboutMe .qikan a{color:black;}
 .aboutMe .qikan a:hover{color: #337ab7;}
 .bottomP{height:50px;}
 .lunwencount{color:#333}

@@ -17,8 +17,8 @@
       <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+            <state relative-caret-position="232">
+              <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -26,8 +26,8 @@
       <file leaf-file-name="publications.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/publications.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+            <state relative-caret-position="360">
+              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -38,7 +38,11 @@
     <findStrings>
       <find>school2</find>
       <find>lunwenCount</find>
+      <find>&lt;/span&gt;</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,8 +54,8 @@
         <option value="$PROJECT_DIR$/links.html" />
         <option value="$PROJECT_DIR$/css/timeline.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/publications.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/publications.css" />
       </list>
     </option>
@@ -127,12 +131,12 @@
       <updated>1541513000201</updated>
       <workItem from="1541513001681" duration="5244000" />
       <workItem from="1541559335137" duration="253000" />
-      <workItem from="1541615469328" duration="7801000" />
+      <workItem from="1541615469328" duration="8311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13298000" />
+    <option name="totallyTimeSpent" value="13808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -278,22 +282,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+        <state relative-caret-position="645">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/publications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        <state relative-caret-position="232">
+          <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/publications.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+        <state relative-caret-position="360">
+          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
         </state>
       </provider>
     </entry>
