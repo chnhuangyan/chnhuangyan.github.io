@@ -84,9 +84,9 @@
 .bannerTopName span,.bannerTopP span{color:#777777; }
 .banner_Nav{width: 73%;height: 35px;margin:0 15%;margin-left: 14%;margin-top:3%;border-top: solid 1.5px rgba(210, 215, 217, 0.75); border-bottom: solid 1.5px rgba(210, 215, 217, 0.75);}
 .banner_Nav ul{display: flex;display: -webkit-box;  display: -moz-box;   display: -ms-flexbox; display: -webkit-flex;justify-content: flex-start;}
-.banner_Nav ul li{margin-right: 5%;margin-left: 3%;font-size: 16px;list-style:none;margin-top:5px;}
-.banner_Nav ul li a{color: black;font-weight: 500;}
-.banner_Nav ul li a:hover{color: #033499;text-decoration: none;}
+.banner_Nav ul li{margin-right: 5%;margin-left: 9%;font-size: 16px;list-style:none;margin-top:5px;}
+.banner_Nav ul li a{color: #033499;font-weight: 500;}
+.banner_Nav ul li a:hover{color: #337ab7;text-decoration: none;}
 .navbar{width: 7%;background-color:transparent; height: 35px;border: none;}
 .container-fluid{margin:0;padding:0;width: 100%;}
 .banner_Year .container-fluid #myexample{width: 100%;height: 35px;margin:0;padding:0;color:#033499}
@@ -95,18 +95,20 @@
 .navbar-default .navbar-nav .open{height: 35px}
 .banner_Year{position: relative;height:10px;width: 100%;}
 .navbar{position: absolute;right: 20%;bottom:-180%;}
-.aboutMe2{margin-top: 0;border: none;margin-left:15%;width: 70%;margin-bottom: -4%;}
+.aboutMe2{margin-top: 4%;border: none;margin-left:12%;width: 70%;margin-bottom: -4%;}
 .aboutMe2 .aboutMeLeft{width: 100%}
 .aboutMe2 h3{height: 40px;width: 250px;margin-left:4%;border-bottom: solid 3px #033499;margin-top: 50px;}
 /*.aboutMe2 p{width:55%;margin-left:4%;font-size: 16px;font-weight: normal;}margin-top: 1%; }*/
 .aboutMe p a{color: #033499;}
 .aboutMe2 p{margin-top:0px;width:100%;margin-left:4%;font-size: 16px;font-weight: normal;word-wrap:break-word;line-height:16px;}
-.aboutMeLeft{margin-bottom:120px;}
+.aboutMeLeft{margin-bottom:0px; margin-top: -3%}
 
+.selected-pub{margin-top: 3%; margin-left: -5%}
+.article{margin-left: 0%}
 
-.aboutMe2 .aboutMeLeft2 h3{width: 200px;margin-bottom: 25px;}
-.aboutMe2 .aboutMeLeft3 h3{width: 240px;margin-top:150px;}
-.aboutMe2 .aboutMeLeft2 div{padding-bottom: 2px;line-height:16px;margin-top:14px;}
+.aboutMe2 .aboutMeLeft2 h3{width: 260px;margin-bottom: 25px;}
+.aboutMe2 .aboutMeLeft3 h3{width: 290px;margin-top:80px;}
+.aboutMe2 .aboutMeLeft2 div{padding-bottom: 2px;line-height:0px;margin-top:14px;}
 
 
 .aboutMeLeft > div > p:first-child{ color: #666666;}

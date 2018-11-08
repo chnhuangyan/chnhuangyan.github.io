@@ -14,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+            <state relative-caret-position="254">
+              <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -26,8 +44,8 @@
       <file leaf-file-name="publications.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/publications.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="294">
+              <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -37,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>school2</find>
+      <find>lunwenCount</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -126,12 +145,12 @@
       <updated>1541513000201</updated>
       <workItem from="1541513001681" duration="5244000" />
       <workItem from="1541559335137" duration="253000" />
-      <workItem from="1541615469328" duration="4962000" />
+      <workItem from="1541615469328" duration="7518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10459000" />
+    <option name="totallyTimeSpent" value="13015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -261,31 +280,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state relative-caret-position="149">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        <state relative-caret-position="315">
+          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/publications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        <state relative-caret-position="254">
+          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/publications.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="294">
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
         </state>
       </provider>
     </entry>
