@@ -61,16 +61,16 @@
     box-shadow: 4px 4px 4px 4px #828282 !important;}
 .aboutMe, .professional{margin-top:7% !important;}
 }
-#banner{width:60%;margin-left: 20%;margin-right:15%;overflow: hidden;margin-top:50px;position: relative;}
+#banner{width:71%;margin-left: 15%;margin-right:0%;overflow: hidden;margin-top:20px;position: relative;}
 .carousel-inner .item img { margin: 0 auto;height:100%;width:100%;box-shadow: 5px 5px 5px 5px #828282;}
 .tp1{background:#ECEDF1;}
 .tp2{background:#88AED3;}
 .tp3{background:#22AEE3;}
 .carousel-indicators{top:90%;}
-.bannerWord{width:70%;margin-left: 15%;margin-right:15%;margin-top:50px;font-size: 22px;text-align: center;}
+.bannerWord{width:100%;margin-left: 15%;margin-right:15%;margin-top:50px;font-size: 22px;text-align: center;}
 .bannerWord span{color: #f56a6a;}
 
-.CurrentMembers{width:100%;margin-top:0px;background-color:rgba(244,244,244,0.75);padding-top: 30px;}
+.CurrentMembers{width:100%;margin-top:0px;background-color:rgba(244,244,244,0.75);padding-top: 0px;}
 .CurrentMembers h1,.CurrentMembers h4{
     height: 50px;
     text-align:center;
@@ -83,10 +83,10 @@
    }
 .CurrentMembers h4{margin-top:-1%;color: #9C9C9C}
 .CurrentMembers h4 span{color:#696969}
-.CurrentMembers .img-box{width:20%;padding:5px;height:220px;text-align: center;vertical-align: middle;display: table-cell;background-color: white;}
+.CurrentMembers .img-box{width:25%;padding:3px;height:220px;text-align: center;vertical-align: middle;display: table-cell;background-color: white;}
 .CurrentMembers .img-box img{max-width:100%;max-height:100%;height:auto;width:auto;}
 .CurrentMembers .ul-li{display: flex;display: -webkit-box;  display: -moz-box; display: -ms-flexbox; display: -webkit-flex; flex-wrap:wrap;justify-content:flex-start;width: 100%;padding-left:20%; padding-right: 20%;margin-bottom: 4%}
-.CurrentMembers .ul-li li{background-color:rgba(235,235,235,0.75);list-style:none;width:20%;margin-right:3%;margin-left:2%;margin-top:30px ;margin-bottom:50px;box-shadow: 0 0 10px 5px rgba(235,235,235,0.75);}
+.CurrentMembers .ul-li li{background-color:rgba(235,235,235,0.75);list-style:none;width:23%;margin-right:1%;margin-left:1%;margin-top:0px ;margin-bottom:0px;box-shadow: 0 0 10px 5px rgba(235,235,235,0.75);}
 .CurrentMembers .ul-li li h3{text-align: center;margin:0;padding-top: 6%;padding-bottom: 2%;}
 .CurrentMembers .ul-li li p{text-align: center;padding: 0 8%;padding-bottom: 2%;margin:0;}
 .CMpeople{background-color:rgba(235,235,235,0.75);}
