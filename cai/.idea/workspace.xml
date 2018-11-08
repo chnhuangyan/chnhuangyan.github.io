@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="group.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="group.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/group.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
               <folding>
                 <element signature="e#2846#2850#0" expanded="true" />
                 <element signature="e#2850#2854#0" expanded="true" />
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="group.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/group.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="410">
+              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -70,8 +70,8 @@
         <option value="$PROJECT_DIR$/css/teaching.css" />
         <option value="$PROJECT_DIR$/teaching.html" />
         <option value="$PROJECT_DIR$/publications.html" />
-        <option value="$PROJECT_DIR$/css/group.css" />
         <option value="$PROJECT_DIR$/group.html" />
+        <option value="$PROJECT_DIR$/css/group.css" />
       </list>
     </option>
   </component>
@@ -152,12 +152,12 @@
       <updated>1541513000201</updated>
       <workItem from="1541513001681" duration="5244000" />
       <workItem from="1541559335137" duration="253000" />
-      <workItem from="1541615469328" duration="10812000" />
+      <workItem from="1541615469328" duration="10900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16309000" />
+    <option name="totallyTimeSpent" value="16397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -318,17 +318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/group.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/group.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding>
             <element signature="e#2846#2850#0" expanded="true" />
             <element signature="e#2850#2854#0" expanded="true" />
@@ -341,6 +334,13 @@
             <element signature="e#7376#7380#0" expanded="true" />
             <element signature="e#7380#7384#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/group.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
         </state>
       </provider>
     </entry>
