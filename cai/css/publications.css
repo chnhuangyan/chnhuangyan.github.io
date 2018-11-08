@@ -95,7 +95,7 @@
 .navbar-default .navbar-nav .open{height: 35px}
 .banner_Year{position: relative;height:10px;width: 100%;}
 .navbar{position: absolute;right: 20%;bottom:-180%;}
-.aboutMe2{margin-top: 4%;border: none;margin-left:12%;width: 70%;margin-bottom: -4%;}
+.aboutMe2{margin-top: 4%;border: none;margin-left:12%;width: 100%;margin-bottom: -4%;}
 .aboutMe2 .aboutMeLeft{width: 100%}
 .aboutMe2 h3{height: 40px;width: 250px;margin-left:4%;border-bottom: solid 3px #033499;margin-top: 50px;}
 /*.aboutMe2 p{width:55%;margin-left:4%;font-size: 16px;font-weight: normal;}margin-top: 1%; }*/
@@ -109,6 +109,7 @@
 .aboutMe2 .aboutMeLeft2 h3{width: 260px;margin-bottom: 25px;}
 .aboutMe2 .aboutMeLeft3 h3{width: 290px;margin-top:80px;}
 .aboutMe2 .aboutMeLeft2 div{padding-bottom: 2px;line-height:0px;margin-top:14px;}
+.aboutMe2 .aboutMeLeft2 div p{line-height: 10px}
 
 
 .aboutMeLeft > div > p:first-child{ color: #666666;}
