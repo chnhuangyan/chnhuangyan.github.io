@@ -72,7 +72,7 @@
 
 .CurrentMembers{width:100%;margin-top:0px;background-color:rgba(244,244,244,0.75);padding-top: 0px;}
 .CurrentMembers h1,.CurrentMembers h4{
-    height: 50px;
+    height: 40px;
     text-align:center;
     text-align:-moz-center;
     text-align:-webkit-center;
@@ -81,16 +81,27 @@
     width: 100%;
     color:#f56a6a;
    }
-.CurrentMembers h4{margin-top:-1%;color: #9C9C9C}
+.CurrentMembers h4{margin-top:2%;color: #9C9C9C}
 .CurrentMembers h4 span{color:#696969}
-.CurrentMembers .img-box{width:25%;padding:3px;height:220px;text-align: center;vertical-align: middle;display: table-cell;background-color: white;}
+
+.CurrentMembers .img-box{
+    border-radius: 100%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto 1.6875em auto;
+    width: 4em;
+    height:auto;
+    margin-top: 6%;
+}
+
 .CurrentMembers .img-box img{max-width:100%;max-height:100%;height:auto;width:auto;}
-.CurrentMembers .ul-li{display: flex;display: -webkit-box;  display: -moz-box; display: -ms-flexbox; display: -webkit-flex; flex-wrap:wrap;justify-content:flex-start;width: 100%;padding-left:20%; padding-right: 20%;margin-bottom: 4%}
+.CurrentMembers .ul-li{display: flex;display: -webkit-box;  display: -moz-box; display: -ms-flexbox; display: -webkit-flex; flex-wrap:wrap;justify-content:flex-start;width: 100%;padding-left:18%; padding-right: 18%;margin-bottom: 0%}
 .CurrentMembers .ul-li li{background-color:rgba(235,235,235,0.75);list-style:none;width:23%;margin-right:1%;margin-left:1%;margin-top:0px ;margin-bottom:0px;box-shadow: 0 0 10px 5px rgba(235,235,235,0.75);}
-.CurrentMembers .ul-li li h3{text-align: center;margin:0;padding-top: 6%;padding-bottom: 2%;}
-.CurrentMembers .ul-li li p{text-align: center;padding: 0 8%;padding-bottom: 2%;margin:0;}
-.CMpeople{background-color:rgba(235,235,235,0.75);}
-.CMpeople p{font-size: 16px;word-wrap:break-word}
+.CurrentMembers .ul-li li h3{text-align: center;font-size: 16px;margin-top: -10%}
+.CurrentMembers .ul-li li p{text-align: center;padding: 0 0%;padding-bottom: 0%;margin:0;}
+.CMpeople{background-color:rgba(235,235,235,0.75);margin-top: -6%;}
+.CMpeople p{font-size: 12px;word-wrap:break-word;}
+.CMpeople h3{font-size: 12px;word-wrap:break-word;margin-bottom: 2%}
 .Alumni{background-color:transparent; }
 
 .lunbo_delete{display:flex;justify-content:center;margin-right:10px;}
