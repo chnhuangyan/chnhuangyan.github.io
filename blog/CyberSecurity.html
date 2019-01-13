@@ -171,28 +171,26 @@
 		<h2 id="toc_0">Install WireShark</h2>
 
 <ul>
-<li>run the command in the terminal<br/>
+<li>Run the command in the terminal<br/>
 <code>sudo apt-get install wireshark</code><br/></li>
 </ul>
 
 <ul>
-<li><p>choose <span style="color:red"> <strong>Yes</strong></span>  when you see the following window while installing<br/><br/>
+<li><p>Choose <span style="color:red"> <strong>Yes</strong></span>  when you see the following window while installing<br/><br/>
 <img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/01.png" alt=""/>  </p></li>
-<li><p>modify init.lua file  </p>
+<li><p>Modify init.lua file  </p>
 
 <ul>
-<li>run the command in the terminal<br/>
+<li>Run the command in the terminal<br/>
 <code>sudo gedit /usr share/wireshark/init.lua</code><br/></li>
 </ul>
 
 <ul>
-<li>change the last second line to<br/></li>
-<li><p><span style="color:blue"><em>–dofile(DATA_DIR..”console.lua”)</em></span>  </p>
+<li><p>Change the last second line to <br/>
+<span style="color:blue"><em>–dofile(DATA_DIR..”console.lua”)</em></span>  </p>
 
-<p>before modification<br/><br/>
-<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/before.png" alt=""/><br/><br/>
-after modification<br/><br/>
-<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/after.png" alt=""/>  </p></li>
+<p>Before modification: <img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/before.png" alt=""/><br/><br/>
+After modification: <img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/after.png" alt=""/>  </p></li>
 </ul></li>
 </ul>
 
