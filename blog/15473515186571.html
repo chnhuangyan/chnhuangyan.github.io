@@ -167,7 +167,7 @@
 <h2 id="toc_0">Install WireShark</h2>
 
 <ul>
-<li>Run the command in the terminal to install
+<li>Run the command in the terminal to install<br/>
 <code>sudo apt-get install wireshark</code><br/></li>
 </ul>
 
@@ -199,14 +199,38 @@ After modification: <img src="https://raw.githubusercontent.com/chnhuangyan/chnh
 <img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/network.png" alt=""/></p></li>
 <li><p>Then you can see the following panes <br/>
 <img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/interface.png" alt=""/> </p></li>
-<li><p>Use Filter<br/>
+<li><p>Protocol Filter<br/>
 Open <a href="http://www.google.com">www.google.com</a> and capture http packets, you can see all the fields of TCP package: <br/>
 <img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/http.png" alt=""/> </p></li>
+<li><p>IP Filter<br/>
+<code>ip.src ==192.168.1.102</code> <br/>
+only display packets with source address 192.168.1.102 </p></li>
+</ul>
+
+<ul>
+<li><p>Port Filter <br/>
+<code>tcp.port ==80</code><br/>
+only display TCP packets with port 80<br/>
+<code>tcp.srcport == 80</code><br/>
+only display TCP packets with source port 80</p></li>
+<li><p>Http Methods Filter <br/>
+<code>http.request.method==&quot;GET&quot;</code> <br/>
+only display packets with HTTP GET method</p></li>
+</ul>
+
+<ul>
+<li>Logic Expression: and/or<br/>
+<code>ip.src ==192.168.1.102 or ip.dst==192.168.1.102</code><br/>
+display packets with source address 192.168.1.102 or destination address 192.168.1.102</li>
 </ul>
 
 <h2 id="toc_2">Assignment:</h2>
 
 <p>Use WireShark to analyze the TCP 3-Way Handshake Process</p>
+
+<ul>
+<li>Hint</li>
+</ul>
 
 
 </div>
