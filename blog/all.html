@@ -89,6 +89,14 @@
           
 
       
+        <li class="divider"></li>
+        <li><label>CyberSecurity</label></li>
+
+          
+            <li><a title="WireShark in Ubuntu" href="15473515186571.html">WireShark in Ubuntu</a></li>
+          
+
+      
       </ul>
     </aside>
 
@@ -140,6 +148,12 @@
                         
 
                     
+                      <li class="side-title"><span>CyberSecurity</span></li>
+                        
+                          <li><a title="WireShark in Ubuntu" href="15473515186571.html">WireShark in Ubuntu</a></li>
+                        
+
+                    
                   </ul>
                 </nav>
                 </div>
@@ -152,12 +166,41 @@
 
 	
 		<div class="markdown-body">
-		<h1>True Positive, False Positive, False Negative, True Negative, Precision, Recall</h1>
+		<h1>WireShark in Ubuntu</h1>
 
-		<p><img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/statistics.jpg" alt=""/></p>
+		<h2 id="toc_0">Install WireShark</h2>
+
+<ul>
+<li>run the command in the terminal<br/>
+<code>sudo apt-get install wireshark</code><br/></li>
+</ul>
+
+<ul>
+<li><p>choose <span style="color:red"> <strong>Yes</strong></span>  when you see the following window while installing<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/01.jpg" alt=""/>  </p></li>
+<li><p>modify init.lua file  </p>
+
+<ul>
+<li>run the command in the terminal<br/>
+<code>sudo gedit /usr share/wireshark/init.lua</code><br/></li>
+</ul>
+
+<ul>
+<li>change the last second line to<br/></li>
+<li><p><span style="color:blue"><em>–dofile(DATA_DIR..”console.lua”)</em></span>  </p>
+
+<p>before modification<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/before.jpg" alt=""/><br/><br/>
+after modification<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/after.jpg" alt=""/>  </p></li>
+</ul></li>
+</ul>
 
 
 		</div>
+	
+
+ 
 	
 
  

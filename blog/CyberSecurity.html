@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Skills - 
+  CyberSecurity - 
   
   </title>
  <meta name="description" content="">
@@ -166,31 +166,38 @@
 
 	
 		<div class="markdown-body">
-		<h1>Latex</h1>
+		<h1>WireShark in Ubuntu</h1>
 
-		<h4 id="toc_0">\limits</h4>
+		<h2 id="toc_0">Install WireShark</h2>
 
-<p>with out \limits \(\sum_{g_i \in G}\)  </p>
+<ul>
+<li>run the command in the terminal<br/>
+<code>sudo apt-get install wireshark</code><br/></li>
+</ul>
 
-<blockquote>
-<p>\sum_{g_i \in G}</p>
-</blockquote>
+<ul>
+<li><p>choose <span style="color:red"> <strong>Yes</strong></span>  when you see the following window while installing<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/01.jpg" alt=""/>  </p></li>
+<li><p>modify init.lua file  </p>
 
-<p>with \limits<br/>
-\(\sum \limits_{g_i \in G}\)</p>
+<ul>
+<li>run the command in the terminal<br/>
+<code>sudo gedit /usr share/wireshark/init.lua</code><br/></li>
+</ul>
 
-<blockquote>
-<p>\sum \limits_{g_i \in G}</p>
-</blockquote>
+<ul>
+<li>change the last second line to<br/></li>
+<li><p><span style="color:blue"><em>–dofile(DATA_DIR..”console.lua”)</em></span>  </p>
+
+<p>before modification<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/before.jpg" alt=""/><br/><br/>
+after modification<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/after.jpg" alt=""/>  </p></li>
+</ul></li>
+</ul>
 
 
 		</div>
-	
-
- 
-	
-
- 
 	
 
   

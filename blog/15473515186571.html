@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Skills - 
+  WireShark in Ubuntu - 
   
   </title>
  <meta name="description" content="">
@@ -161,40 +161,74 @@
             </div>
             <div class="large-9 medium-9 columns">
 
- 
+ <div class="markdown-body">
+<h1>WireShark in Ubuntu</h1>
+
+<h2 id="toc_0">Install WireShark</h2>
+
+<ul>
+<li>run the command in the terminal<br/>
+<code>sudo apt-get install wireshark</code><br/></li>
+</ul>
+
+<ul>
+<li><p>choose <span style="color:red"> <strong>Yes</strong></span>  when you see the following window while installing<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/01.jpg" alt=""/>  </p></li>
+<li><p>modify init.lua file  </p>
+
+<ul>
+<li>run the command in the terminal<br/>
+<code>sudo gedit /usr share/wireshark/init.lua</code><br/></li>
+</ul>
+
+<ul>
+<li>change the last second line to<br/></li>
+<li><p><span style="color:blue"><em>–dofile(DATA_DIR..”console.lua”)</em></span>  </p>
+
+<p>before modification<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/before.jpg" alt=""/><br/><br/>
+after modification<br/><br/>
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/WireShark/after.jpg" alt=""/>  </p></li>
+</ul></li>
+</ul>
 
 
-	
-		<div class="markdown-body">
-		<h1>Latex</h1>
+</div>
 
-		<h4 id="toc_0">\limits</h4>
+<br /><br />
+<hr />
 
-<p>with out \limits \(\sum_{g_i \in G}\)  </p>
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	        <a href="15241523037701.html" 
+	        title="Next Post: True Positive, False Positive, False Negative, True Negative, Precision, Recall">True Positive, False Positive, False Negative, True Negative, Precision, Recall &raquo;</a>
+	    
+	</div>
+  </div>
+</div>
 
-<blockquote>
-<p>\sum_{g_i \in G}</p>
-</blockquote>
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
 
-<p>with \limits<br/>
-\(\sum \limits_{g_i \in G}\)</p>
-
-<blockquote>
-<p>\sum \limits_{g_i \in G}</p>
-</blockquote>
-
-
-		</div>
-	
-
- 
-	
-
- 
-	
-
-  
-  
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '15473515186571.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
 </div></div>
 
 
