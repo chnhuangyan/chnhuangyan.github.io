@@ -72,7 +72,7 @@
 }
 
 
-.teaching {position: relative;font-family: "Times New Roman", Times, serif;margin-top: 3%;border: none;margin-left:15%;width: 70%;margin-bottom: -4%;}
+.teaching {position: relative;font-family: "Times New Roman", Times, serif;margin-top: 4%;border-top: solid 2px rgba(210, 210, 217, 0.75);margin-left:15%;width: 70%;margin-bottom: -4%;}
 .teachingLeft {width: 80%;margin-bottom: 120px;font-family: "Times New Roman", Times, serif;}
 .teaching h3{width: 120px;margin-bottom: 50px;margin-left: 10%;height: 40px;/*border-bottom: solid 3px #f56a6a;*/margin-top: 50px;}
 .teaching ul{margin-left: 8%;margin-right: 8%;margin-top: 0px;font-family: "Times New Roman", Times, serif;}
