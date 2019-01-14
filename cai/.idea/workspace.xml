@@ -26,8 +26,8 @@
       <file leaf-file-name="teaching.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teaching.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="135" column="54" lean-forward="true" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
+            <state relative-caret-position="318">
+              <caret line="244" column="35" selection-start-line="244" selection-start-column="35" selection-end-line="244" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -79,7 +79,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -146,15 +146,15 @@
       <workItem from="1543503729113" duration="400000" />
       <workItem from="1545409973159" duration="390000" />
       <workItem from="1547426647174" duration="52000" />
-      <workItem from="1547426951090" duration="608000" />
+      <workItem from="1547426951090" duration="853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24058000" />
+    <option name="totallyTimeSpent" value="24303000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
@@ -409,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teaching.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="135" column="54" lean-forward="true" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
+        <state relative-caret-position="318">
+          <caret line="244" column="35" selection-start-line="244" selection-start-column="35" selection-end-line="244" selection-end-column="35" />
         </state>
       </provider>
     </entry>
