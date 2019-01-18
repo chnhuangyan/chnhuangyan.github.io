@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  WireShark in Ubuntu - 
+  WireShark in Ubuntu (Basic) - 
   
   </title>
  <meta name="description" content="">
@@ -93,7 +93,7 @@
         <li><label>CyberSecurity</label></li>
 
           
-            <li><a title="WireShark in Ubuntu" href="15473515186571.html">WireShark in Ubuntu</a></li>
+            <li><a title="WireShark in Ubuntu (Basic)" href="15473515186571.html">WireShark in Ubuntu (Basic)</a></li>
           
 
       
@@ -150,7 +150,7 @@
                     
                       <li class="side-title"><span>CyberSecurity</span></li>
                         
-                          <li><a title="WireShark in Ubuntu" href="15473515186571.html">WireShark in Ubuntu</a></li>
+                          <li><a title="WireShark in Ubuntu (Basic)" href="15473515186571.html">WireShark in Ubuntu (Basic)</a></li>
                         
 
                     
@@ -162,7 +162,7 @@
             <div class="large-9 medium-9 columns">
 
  <div class="markdown-body">
-<h1>WireShark in Ubuntu</h1>
+<h1>WireShark in Ubuntu (Basic)</h1>
 
 <h2 id="toc_0">Install WireShark</h2>
 
@@ -224,20 +224,57 @@ only display packets with HTTP GET method</p></li>
 display packets with source address 192.168.1.102 or destination address 192.168.1.102</li>
 </ul>
 
-<h2 id="toc_2">Assignment:</h2>
+<h2 id="toc_2">Statistics</h2>
+
+<ul>
+<li>Summary<br/>
+Click Statistics-&gt;Capture File Properties
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/property.png" alt=""/><br/>
+Then you can find the summary information
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/property1.png" alt=""/> </li>
+<li>Protocol Hierarchy<br/>
+Click Statistics-&gt;Protocol Hierarchy
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/hierarchy.png" alt=""/><br/>
+Then you can see the information of Protocol Hierarchy
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/hierarchy1.png" alt=""/> </li>
+<li>Conversations 
+Click Statistics-&gt;Conversations
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/conversation.png" alt=""/><br/>
+Then you can see conversation information for all the protocols
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/conversation1.png" alt=""/> </li>
+<li>Endpoints<br/>
+Click Statistics-&gt;Endpoints
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/endpoints.png" alt=""/><br/>
+Then you can see the endpoints information for all the protocols
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/endpoints1.png" alt=""/> </li>
+<li>HTTP<br/>
+For HTTP communications, you can have the following statistics
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/httpstatistic.png" alt=""/> </li>
+<li>IO Graphs<br/>
+Click Statistics-&gt;IO Graphs
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/io.png" alt=""/><br/>
+Then you can see the statistics in Graph. You can change filter for the statistics.
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/iofilter.png" alt=""/> </li>
+</ul>
+
+<h2 id="toc_3">Assignment 1:</h2>
 
 <p>Use WireShark to analyze the TCP 3-Way Handshake Process</p>
 
-<h3 id="toc_3">Hint</h3>
+<h3 id="toc_4">Hint</h3>
 
 <ul>
-<li><p>Use Filter to find out TCP packets and right click the TCP packet to find Follow -&gt; TCP Stream<br/>
-<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/follow.png" alt=""/> </p></li>
-<li><p>Filter Out this stream<br/>
-<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/follow1.png" alt=""/> </p></li>
-<li><p>Then you can see the TCP packets in sequence<br/>
-<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/tcp.png" alt=""/> </p></li>
+<li>Use Filter to find out TCP packets and right click the TCP packet to find Follow -&gt; TCP Stream
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/follow.png" alt=""/></li>
+<li>Filter Out this stream
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/follow1.png" alt=""/><br/>
+Then you can see the TCP packets in sequence
+<img src="https://raw.githubusercontent.com/chnhuangyan/chnhuangyan.github.io/master/images/wireshark/tcp.png" alt=""/> </li>
 </ul>
+
+<h2 id="toc_5">Assignment 2:</h2>
+
+<p>Open <a href="https://www.google.com">https://www.google.com</a> and use WireShark to analyze HTTPS Handshake process</p>
 
 
 </div>
