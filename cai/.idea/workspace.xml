@@ -54,8 +54,8 @@
       <file leaf-file-name="group.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/group.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="247" column="20" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="30" />
+            <state relative-caret-position="307">
+              <caret line="251" column="45" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -178,11 +178,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/imagesworkshop" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/imagesworkshop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,12 +228,12 @@
       <workItem from="1549484542671" duration="5797000" />
       <workItem from="1549513482690" duration="5371000" />
       <workItem from="1549642485419" duration="1391000" />
-      <workItem from="1550083031559" duration="435000" />
+      <workItem from="1550083031559" duration="855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45656000" />
+    <option name="totallyTimeSpent" value="46162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="31" width="1280" height="709" extended-state="0" />
@@ -644,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/group.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="247" column="20" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="30" />
+        <state relative-caret-position="307">
+          <caret line="251" column="45" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
         </state>
       </provider>
     </entry>
