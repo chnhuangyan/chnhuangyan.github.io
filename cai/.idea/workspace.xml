@@ -17,8 +17,8 @@
       <file leaf-file-name="workshop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="411">
+              <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -117,9 +117,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="222" />
+    <option name="y" value="59" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -225,16 +225,16 @@
       <workItem from="1550550085410" duration="347000" />
       <workItem from="1550588617693" duration="81000" />
       <workItem from="1550588734823" duration="201000" />
-      <workItem from="1550758315055" duration="120000" />
+      <workItem from="1550758315055" duration="610000" />
+      <workItem from="1550799842457" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47741000" />
+    <option name="totallyTimeSpent" value="48551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="35" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="222" y="59" width="1280" height="709" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17871326" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -614,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="411">
+          <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
