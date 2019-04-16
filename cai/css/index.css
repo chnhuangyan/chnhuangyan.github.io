@@ -7,7 +7,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
     height: 150px !important;
     width: 100% !important;
     margin-top: 0% !important;
-    margin-left:9% !important;
+    margin-left:0% !important;
     display: flex !important;
     display:s-webkit-box !important;
     display: -moz-box !important;
@@ -20,7 +20,7 @@ body{background: url(../images/bg3.png) repeat;);font-family: "Times New Roman"}
     }
 .bannerTopPic{
     height: 100% !important;
-    width:178px !important;
+    width:158px !important;
     margin-top: 10px !important;}
 .bannerTopPic img{
     height:100% !important;

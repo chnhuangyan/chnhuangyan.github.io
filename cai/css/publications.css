@@ -10,16 +10,16 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     justify-content:flex-start;
-    font-size:18px;
+    font-size:17px;
     line-height: 30px;
     padding:0 9%;
     }
 .bannerTopPic{height: 100%;width:195px;margin-top: 10px;}
 .bannerTopPic img{height:100%;width:195px;}
 .bannerTop .bannerTopPic{box-shadow: 3px 3px 3px 3px #828282;}
-.bannerTopName{padding-top: 20px;font-weight: 500;margin-left:12%}
+.bannerTopName{padding-top: 20px;font-weight: 500;margin-left:3%}
 /*.bannerTop .bannerTopName p{margin-bottom:15px}*/
-.bannerTopP{padding-top: 20px;margin-left:-2%;margin-left:12%}
+.bannerTopP{padding-top: 20px;margin-left:-2%;margin-left:3%}
 .banW{display: none;}
 
 @media screen and (max-width: 1280px) {
