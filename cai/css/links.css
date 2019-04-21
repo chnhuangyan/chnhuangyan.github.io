@@ -1,28 +1,5 @@
 @media screen and (max-width: 1280px) {
-.bannerTopP{margin-left: 2%  !important;} 
-.bannerTopNameN{font-size:18px !important;}
-.bannerTop{
-    height: 200px !important;
-    width: 100% !important;
-    margin-top: 2% !important;
-    margin-left:9% !important;
-    display: flex !important;
-    display:s-webkit-box !important;
-    display: -moz-box !important;
-    display: -ms-flexbox !important;
-    display: -webkit-flex !important;
-    justify-content:flex-start !important;
-    font-size:16px !important;
-    line-height: 25px !important;
-    padding:0 9% !important;
-    }
-.bannerTopPic{
-	height: 100% !important;
-	width:178px !important;
-	margin-top: 10px !important;}
-.bannerTopPic img{
-	height:100% !important;
-  	width:178px !important;}
+
 .HeaderLeft a img{
 	height:40% !important;
 	position:absolute !important;
