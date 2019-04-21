@@ -1,11 +1,11 @@
 #containPub{margin:0 auto;}
 .bannerTop{
+    resize: none;
     height: 220px;
     width: 100%;
     margin-top: 0.5%;
-    margin-left:9%;
-    display: flex;
-    display:s-webkit-box;
+    margin-left:8%;
+    margin-right: 8%;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -19,31 +19,14 @@
 .bannerTop .bannerTopPic{box-shadow: 3px 3px 3px 3px #828282;}
 .bannerTopName{padding-top: 20px;font-weight: 500;margin-left:4%}
 /*.bannerTop .bannerTopName p{margin-bottom:15px}*/
-.bannerTopP{padding-top: 20px;margin-left:-2%;margin-left:6%}
+.bannerTopPCenter{padding-top: 20px; display: inline-block; position: absolute; left: 50%; }
+.bannerTopP{padding-top: 20px; display: inline-block; position: absolute; right: 15%}
 .banW{display: none;}
 
 @media screen and (max-width: 1280px) {
 .bannerTopP{margin-left: 2%  !important;} 
 .bannerTopNameN{font-size:18px !important;}
-.bannerTop{
-    height: 200px !important;
-    width: 100% !important;
-    margin-top: 2% !important;
-    margin-left:9% !important;
-    display: flex !important;
-    display:s-webkit-box !important;
-    display: -moz-box !important;
-    display: -ms-flexbox !important;
-    display: -webkit-flex !important;
-    justify-content:flex-start !important;
-    font-size:16px !important;
-    line-height: 25px !important;
-    padding:0 9% !important;
-    }
-.bannerTopPic{
-    height: 100% !important;
-    width:178px !important;
-    margin-top: 10px !important;}
+
 .bannerTopPic img{
     height:100% !important;
     width:178px !important;}
