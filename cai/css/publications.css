@@ -15,8 +15,8 @@
     line-height: 30px;
     padding:0 9%;
     }
-.bannerTopPic{height: 100%;width:185px;margin-top:10px;}
-.bannerTopPic img{height:100%;width:100%;}
+.bannerTopPic{height: 100%;width:178px;margin-top:10px;box-shadow: 2px 2px 2px 2px #828282;}
+.bannerTopPic img{height:100%;width:178px;}
 .bannerTopName{padding-top: 20px;font-weight: 500;margin-left:4%}
 /*.bannerTop .bannerTopName p{margin-bottom:15px}*/
 .bannerTopPCenter{padding-top: 20px; display: inline-block; position: absolute; left: 50%; }
