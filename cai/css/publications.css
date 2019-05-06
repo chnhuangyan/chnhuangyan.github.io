@@ -18,7 +18,10 @@
 }
 
 .img{
-    width: 82%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
 }
 
 .bannerTop{
@@ -41,48 +44,119 @@
 .bannerTopPic img{height:100%;width:178px;}
 .bannerTopName{padding-top: 20px;font-weight: 500;margin-left:4%}
 /*.bannerTop .bannerTopName p{margin-bottom:15px}*/
-.bannerTopPCenter{padding-top: 20px; display: inline-block; position: absolute; left: 50%; }
+.bannerTopPCenter{padding-top: 20px; display: inline-block; position: absolute; left: 49%; }
 .bannerTopP{padding-top: 20px; display: inline-block; position: absolute; right: 15%}
 .banW{display: none;}
 
-@media screen and (max-width: 1280px) {
-.bannerTopP{margin-left: 2%  !important;} 
-.bannerTopNameN{font-size:18px !important;}
 
-.bannerTopPic img{
-    height:100% !important;
-    width:178px !important;}
-.HeaderLeft a img{
-    height:40% !important;
-    position:absolute !important;
-    top:120px !important;}
-.HeaderLeft a .state{
-    position: absolute !important;
-    top:155px !important;
-    font-size: 20px !important;
-    left:100px !important;
-    color: black !important;
-    text-shadow: 4px 4px 4px #828282 !important;
-    width:250px !important;}
-.HeaderLeft a .university{
-    position: absolute;top:180px !important;
-    font-size: 25px !important;
-    left:110px !important;
-    color:#9C9C9C !important;
-    text-shadow: 4px 4px 4px #E8E8E8 !important;}
-.HeaderW ul li{font-size: 130% !important;
-    list-style:none !important;
-    display:inline !important;
-    margin-left:4% !important;}
+@media screen and (max-width: 1480px) {
+    .bannerTop{
+        resize: none;
+        height: 220px;
+        width: 100%;
+        margin-top: 0.5%;
+        margin-left:8%;
+        margin-right: 8%;
+        display:s-webkit-box !important;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content:flex-start;
+        font-size:17px;
+        line-height: 30px;
+        padding:0 9%;
+    }
+    .bannerTopP{margin-left: 2%  !important;}
+    .bannerTopNameN{font-size:18px !important;}
+
+    .bannerTopPic img{
+        height:100% !important;
+        width:178px !important;}
+    .HeaderLeft a img{
+        height:40% !important;
+        position:absolute !important;
+        top:120px !important;}
+    .HeaderLeft a .state{
+        position: absolute !important;
+        top:155px !important;
+        font-size: 20px !important;
+        left:100px !important;
+        color: black !important;
+        text-shadow: 4px 4px 4px #828282 !important;
+        width:250px !important;}
+    .HeaderLeft a .university{
+        position: absolute;top:180px !important;
+        font-size: 25px !important;
+        left:110px !important;
+        color:#9C9C9C !important;
+        text-shadow: 4px 4px 4px #E8E8E8 !important;}
+    .HeaderW ul li{font-size: 130% !important;
+        list-style:none !important;
+        display:inline !important;
+        margin-left:4% !important;}
 
 
-.aboutMe2 {margin-top: 0 !important;}
-.Line{
-    width:70% !important;
-    margin:0 15% !important;
-    border-bottom:1px solid #ddd !important;
-    margin-top:5%!important;}
+    .aboutMe2 {margin-top: 0 !important;}
+    .Line{
+        width:70% !important;
+        margin:0 15% !important;
+        border-bottom:1px solid #ddd !important;
+        margin-top:5%!important;}
+
 }
+
+@media screen and (max-width: 1280px) {
+    .bannerTopPCenter {
+        padding-top: 20px;
+        display: inline-block;
+        position: absolute;
+        left: 51%;
+    }
+
+    .bannerTop {
+        resize: none;
+        height: 220px;
+        width: 100%;
+        margin-top: 0.5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: s-webkit-box !important;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: flex-start;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0 9%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .bannerTopPCenter {
+        padding-top: 20px;
+        display: inline-block;
+        position: absolute;
+        left: 52%;
+    }
+
+    .bannerTop {
+        resize: none;
+        height: 220px;
+        width: 100%;
+        margin-top: 0.5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: s-webkit-box !important;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: flex-start;
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0 9%;
+    }
+}
+
 
 
 .bannerTopName span,.bannerTopP span{color:#777777; }

@@ -22,55 +22,6 @@
 .bannerTopP{padding-top: 20px;margin-left:-2%;margin-left:12%}
 .banW{display: none;}
 
-@media screen and (max-width: 1280px) {
-	.bannerTopP{margin-left: 2%  !important;}
-	.bannerTopNameN{font-size:18px !important;}
-	.bannerTop{
-		height: 200px !important;
-		width: 100% !important;
-		margin-top: 2% !important;
-		margin-left:9% !important;
-		display: flex !important;
-		display:s-webkit-box !important;
-		display: -moz-box !important;
-		display: -ms-flexbox !important;
-		display: -webkit-flex !important;
-		justify-content:flex-start !important;
-		font-size:16px !important;
-		line-height: 25px !important;
-		padding:0 9% !important;
-	}
-	.bannerTopPic{
-		height: 100% !important;
-		width:178px !important;
-		margin-top: 10px !important;}
-	.bannerTopPic img{
-		height:100% !important;
-		width:178px !important;}
-	.HeaderLeft a img{
-		height:40% !important;
-		position:absolute !important;
-		top:120px !important;}
-	.HeaderLeft a .state{
-		position: absolute !important;
-		top:155px !important;
-		font-size: 20px !important;
-		left:100px !important;
-		color: black !important;
-		text-shadow: 4px 4px 4px #828282 !important;
-		width:250px !important;}
-	.HeaderLeft a .university{
-		position: absolute;top:180px !important;
-		font-size: 25px !important;
-		left:110px !important;
-		color:#9C9C9C !important;
-		text-shadow: 4px 4px 4px #E8E8E8 !important;}
-	.HeaderW ul li{font-size: 130% !important;
-		list-style:none !important;
-		display:inline !important;
-		margin-left:4% !important;}
-}
-
 
 .teaching {position: relative;font-family: "Times New Roman", Times, serif;margin-top: 4%;border-top: solid 2px rgba(210, 210, 217, 0.75);margin-left:15%;width: 70%;margin-bottom: -4%;}
 .teachingLeft {width: 80%;margin-bottom: 120px;font-family: "Times New Roman", Times, serif;}
