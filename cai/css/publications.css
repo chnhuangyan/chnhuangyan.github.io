@@ -1,4 +1,26 @@
 #containPub{margin:0 auto;}
+
+.imgTop{
+    resize: none;
+    height: 220px;
+    width: 100%;
+    margin-top: 0.5%;
+    margin-left:8%;
+    margin-right: 8%;
+    display:s-webkit-box !important;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content:flex-start;
+    font-size:17.4px;
+    line-height: 30px;
+    padding:0 9%;
+}
+
+.img{
+    width: 82%;
+}
+
 .bannerTop{
     resize: none;
     height: 220px;
@@ -11,7 +33,7 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     justify-content:flex-start;
-    font-size:16px;
+    font-size:17.4px;
     line-height: 30px;
     padding:0 9%;
     }
