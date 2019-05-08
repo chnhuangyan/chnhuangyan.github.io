@@ -41,12 +41,17 @@
     padding:0 9%;
     }
 .bannerTopPic{height: 100%;width:178px;margin-top:10px;box-shadow: 2px 2px 2px 2px #828282;}
+
 .bannerTopPic img{height:100%;width:178px;}
 .bannerTopName{padding-top: 20px;font-weight: 500;margin-left:4%}
 /*.bannerTop .bannerTopName p{margin-bottom:15px}*/
 .bannerTopPCenter{padding-top: 20px; display: inline-block; position: absolute; left: 49%; }
 .bannerTopP{padding-top: 20px; display: inline-block; position: absolute; right: 15%}
 .banW{display: none;}
+
+.bannerTop p a{
+    color: #033499;
+}
 
 
 @media screen and (max-width: 1480px) {
