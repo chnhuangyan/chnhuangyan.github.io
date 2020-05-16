@@ -1,0 +1,4 @@
+开始;BuildPositiveRelationshipStart=1
+结束：BuildPositiveRelationshipStart=0
+
+document.cookie = "BuildPositiveRelationshipStart=1;Path=/;";
