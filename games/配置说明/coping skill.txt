@@ -1,0 +1,2 @@
+开始：CopingSkillControl=0
+结束：CopingSkillControl=1
