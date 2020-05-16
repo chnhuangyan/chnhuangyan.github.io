@@ -1,0 +1,2 @@
+开始：BusSafetyStart=1
+结束：BusSafetyStart=0
