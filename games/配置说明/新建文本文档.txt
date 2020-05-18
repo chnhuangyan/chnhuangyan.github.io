@@ -1,0 +1,2 @@
+开始：document.cookie = "MannersStart=1;Path=/;";
+结束：document.cookie = "MannersStart=0;Path=/;";
