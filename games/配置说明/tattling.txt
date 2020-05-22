@@ -1,0 +1,6 @@
+开始
+ document.cookie = "TattlingStart=1;Path=/;";
+
+
+结束
+document.cookie = "TattlingStart=0;Path=/;";
