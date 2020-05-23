@@ -1,0 +1,3 @@
+开始：document.cookie = "TimeManagementPass=0;Path=/";
+
+结束：document.cookie = "TimeManagementPass=1;Path=/";
