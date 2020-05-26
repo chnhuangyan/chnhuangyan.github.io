@@ -2,3 +2,5 @@
 结束：BuildPositiveRelationshipStart=0
 
 document.cookie = "BuildPositiveRelationshipStart=1;Path=/;";
+
+介绍音频9秒

@@ -1,3 +1,5 @@
 document.cookie = "AggressionStart=1;Path=/;";
 
 判断游戏开始AggressionStart=1  游戏结束AggressionStart=0
+
+介绍音频7秒
