@@ -1,3 +1,7 @@
 开始：document.cookie = "TimeManagementPass=0;Path=/";
 
 结束：document.cookie = "TimeManagementPass=1;Path=/";
+
+
+level 1 使用 1
+level 2-3 使用2
