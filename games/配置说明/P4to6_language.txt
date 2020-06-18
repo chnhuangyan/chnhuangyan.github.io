@@ -1,0 +1,5 @@
+开始：
+document.cookie = "P4to6_languageStart=1;Path=/;";
+
+结束：
+  document.cookie = "P4to6_languageStart=0;Path=/;";
