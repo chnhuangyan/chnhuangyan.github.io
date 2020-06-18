@@ -1,0 +1,5 @@
+开始：
+document.cookie = "P4to6_Self_Respect_and_Self_Esteem_Start=1;Path=/;";
+
+结束：
+document.cookie = "P4to6_Self_Respect_and_Self_Esteem_Start=0;Path=/;";
