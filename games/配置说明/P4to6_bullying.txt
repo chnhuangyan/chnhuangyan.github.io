@@ -1,0 +1,2 @@
+开始：document.cookie = "P4to6_bullying=1;Path=/;";
+结束：document.cookie = "P4to6_bullying=0;Path=/;";
