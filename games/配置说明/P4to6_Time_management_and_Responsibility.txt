@@ -1,0 +1,2 @@
+开始：document.cookie = "P4to6_Time_management_and_Responsibility=1;Path=/;";
+结束：document.cookie = "P4to6_Time_management_and_Responsibility=0;Path=/;";
