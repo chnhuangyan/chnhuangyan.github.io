@@ -1,0 +1,2 @@
+开始：  document.cookie = "P4to6_Inappropriate_Behavior_Start=1;Path=/;";
+结束：  document.cookie = "P4to6_Inappropriate_Behavior_Start=0;Path=/;";
