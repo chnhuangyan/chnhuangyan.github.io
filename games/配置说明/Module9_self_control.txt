@@ -1,0 +1,2 @@
+开始：document.cookie = "P4to6_self_control_Start=1;Path=/;";
+结束： document.cookie = "P4to6_self_control_Start=0;Path=/;";
