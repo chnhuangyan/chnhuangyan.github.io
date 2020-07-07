@@ -1,0 +1,2 @@
+开始：   document.cookie = "P4to6_Rules_and_Authority_Start=1;Path=/;";
+结束：   document.cookie = "P4to6_Rules_and_Authority_Start=0;Path=/;";
