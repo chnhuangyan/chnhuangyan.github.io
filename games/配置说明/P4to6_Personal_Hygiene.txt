@@ -1,2 +1,2 @@
-开始：        document.cookie = "P4to6_bus_safety_Start=1;Path=/;";
-结束：        document.cookie = "P4to6_bus_safety_Start=0;Path=/;";
+开始：                document.cookie = "P4to6_Personal_Hygiene_Start=1;Path=/;";
+结束：                document.cookie = "P4to6_Personal_Hygiene_Start=0;Path=/;";
