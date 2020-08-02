@@ -4,10 +4,4 @@ document.cookie = "TRFYOAControl=0;Path=/;";
 2.游戏开始判定
 document.cookie = "respectControl=1;Path=/;";
 
-初始化（不是游戏初始化）先设置  document.cookie = "respectScene=1;Path=/;";     防止直接进入等级2
 
-3.游戏等级切换--等级1
- document.cookie = "respectScene=1;Path=/;";
-
-4.游戏等级切换--等级2,3
- document.cookie = "respectScene=2;Path=/;";
