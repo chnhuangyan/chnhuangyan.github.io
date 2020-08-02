@@ -4,7 +4,11 @@ document.cookie = "TRFYOAControl=0;Path=/;";
 2.游戏开始判定
 document.cookie = "TRFYOAControl=1;Path=/;";
 
-TRFYOA初始化（不是游戏初始化）先设置 document.cookie = "TRFYOAScene=1;Path=/;";，防止直接进入等级2
+
+
+
+非重点：
+如何预防直接进入等级2或3，TRFYOA模块初始化（不是游戏初始化）先设置 document.cookie = "TRFYOAScene=1;Path=/;";，防止直接进入等级2
 
 3.游戏等级切换--等级1
  document.cookie = "TRFYOAScene=1;Path=/;";
