@@ -1,2 +1,2 @@
-开始：document.cookie = "P4to6_dishonesty=1;Path=/;";
+开始： document.cookie = "P4to6_dishonesty=1;Path=/;";
 结束：document.cookie = "P4to6_dishonesty=0;Path=/;";
